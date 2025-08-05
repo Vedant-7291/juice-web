@@ -14,7 +14,7 @@ const Footer = () => {
       className="relative text-white"
       ref={ref}
     >
-      {/* Background Image */}
+      
       <div className="absolute inset-0 z-0">
         <div 
           className="w-full h-full bg-cover bg-center"
@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="absolute inset-0 bg-black bg-opacity-70" />
       </div>
       
-      {/* Content */}
+    
       <div className="relative z-10 py-16">
         <div className="container mx-auto px-4">
           <motion.div
@@ -32,7 +32,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             className="grid grid-cols-1 md:grid-cols-4 gap-8"
           >
-            {/* About */}
+           
             <div>
               <h3 className="text-2xl font-bold mb-4">Juice<span className="text-primary">Bar</span></h3>
               <p className="mb-4">
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
             </div>
             
-            {/* Quick Links */}
+            
             <div>
               <h4 className="text-xl font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2">
@@ -83,7 +83,7 @@ const Footer = () => {
               </ul>
             </div>
             
-            {/* Contact Info */}
+           
             <div>
               <h4 className="text-xl font-bold mb-4">Contact Us</h4>
               <ul className="space-y-3">
@@ -108,7 +108,7 @@ const Footer = () => {
               </ul>
             </div>
             
-            {/* Hours */}
+           
             <div>
               <h4 className="text-xl font-bold mb-4">Opening Hours</h4>
               <ul className="space-y-3">
@@ -140,7 +140,7 @@ const Footer = () => {
             </div>
           </motion.div>
           
-          {/* Copyright */}
+         
           <motion.div
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
