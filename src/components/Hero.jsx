@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
 import banner7 from '../assets/banner7.png';
 
-import banner3 from '../assets/banner3.webp' // Add your own images
+import banner3 from '../assets/banner3.webp' 
 
 const slides = [
   {
@@ -46,7 +46,7 @@ const Hero = () => {
       className="relative h-[90vh] md:h-screen flex items-center justify-center overflow-hidden mt-0"
       ref={ref}
     >
-      {/* Background Slides */}
+     
       <div className="absolute inset-0 z-0">
         {slides.map((slide, index) => (
           <div
@@ -61,11 +61,11 @@ const Hero = () => {
           />
         ))}
 
-        {/* Slight Overlay to keep images vibrant */}
+       
         <div className="absolute inset-0 bg-black/30" />
       </div>
 
-      {/* Hero Content */}
+     
       <div className="container mx-auto px-4 z-10 text-white text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -92,7 +92,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Slide Indicators */}
+      
       <div className="absolute bottom-8 left-0 right-0 flex justify-center space-x-2 z-10">
         {slides.map((_, index) => (
           <button
