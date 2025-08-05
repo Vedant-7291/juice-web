@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className="py-20 bg-white" id="about" ref={ref}>
       <div className="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center">
-        {/* Left Side: Image */}
+        
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -27,7 +27,7 @@ const About = () => {
           />
         </motion.div>
 
-        {/* Right Side: About Content */}
+       
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
