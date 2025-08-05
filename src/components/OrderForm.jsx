@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
-import banner3 from "../assets/banner3.webp"; // Use your own image
+import banner3 from "../assets/banner3.webp"; 
 
 const OrderForm = () => {
   return (
@@ -8,15 +8,15 @@ const OrderForm = () => {
       id="order"
       className="relative py-20 min-h-[600px] flex items-center bg-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url(${banner3})`, // <-- Your background image
+        backgroundImage: `url(${banner3})`,
       }}
     >
-      {/* Background Overlay */}
+      
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center z-10">
         
-        {/* Left Side: Quick Call Info */}
+      
         <div className="text-center md:text-left text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Place Your Order Now!
@@ -36,7 +36,7 @@ const OrderForm = () => {
           </div>
         </div>
 
-        {/* Right Side: Transparent Order Form */}
+        
         <form className="bg-black/40 backdrop-blur-sm p-8 rounded-xl shadow-lg space-y-5 text-white border border-green-500/30">
           <h3 className="text-2xl font-bold text-green-500 mb-4 text-center">
             Fill Your Order
