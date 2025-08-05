@@ -39,13 +39,13 @@ const Footer = () => {
                 We're dedicated to providing the freshest, healthiest juices made from organic ingredients.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-white hover:text-primary transition-colors">
+                <a href="#" className="text-white hover:text-green-300 transition-colors duration-300">
                   <FaFacebook size={20} />
                 </a>
-                <a href="#" className="text-white hover:text-primary transition-colors">
+                <a href="#" className="text-white hover:text-green-300 transition-colors duration-300">
                   <FaInstagram size={20} />
                 </a>
-                <a href="#" className="text-white hover:text-primary transition-colors">
+                <a href="#" className="text-white hover:text-green-300 transition-colors duration-300">
                   <FaTwitter size={20} />
                 </a>
               </div>
@@ -55,11 +55,31 @@ const Footer = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2">
-                <li><a href="#home" className="hover:text-primary transition-colors">Home</a></li>
-                <li><a href="#about" className="hover:text-primary transition-colors">About</a></li>
-                <li><a href="#menu" className="hover:text-primary transition-colors">Menu</a></li>
-                <li><a href="#special" className="hover:text-primary transition-colors">Special</a></li>
-                <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
+                <li>
+                  <a href="#home" className="text-white hover:text-green-300 transition-colors duration-300">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" className="text-white hover:text-green-300 transition-colors duration-300">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#menu" className="text-white hover:text-green-300 transition-colors duration-300">
+                    Menu
+                  </a>
+                </li>
+                <li>
+                  <a href="#special" className="text-white hover:text-green-300 transition-colors duration-300">
+                    Special
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="text-white hover:text-green-300 transition-colors duration-300">
+                    Contact
+                  </a>
+                </li>
               </ul>
             </div>
             
@@ -67,17 +87,23 @@ const Footer = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Contact Us</h4>
               <ul className="space-y-3">
-                <li className="flex items-start">
-                  <FaMapMarkerAlt className="mt-1 mr-3 text-primary" />
-                  <span>123 Juice Street, City, Country</span>
+                <li className="group flex items-start">
+                  <FaMapMarkerAlt className="mt-1 mr-3 text-primary group-hover:text-green-300 transition-colors duration-300" />
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    123 Juice Street, City, Country
+                  </span>
                 </li>
-                <li className="flex items-start">
-                  <FaPhone className="mt-1 mr-3 text-primary" />
-                  <span>+1 234 567 890</span>
+                <li className="group flex items-start">
+                  <FaPhone className="mt-1 mr-3 text-primary group-hover:text-green-300 transition-colors duration-300" />
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    +1 234 567 890
+                  </span>
                 </li>
-                <li className="flex items-start">
-                  <FaEnvelope className="mt-1 mr-3 text-primary" />
-                  <span>info@juicebar.com</span>
+                <li className="group flex items-start">
+                  <FaEnvelope className="mt-1 mr-3 text-primary group-hover:text-green-300 transition-colors duration-300" />
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    info@juicebar.com
+                  </span>
                 </li>
               </ul>
             </div>
@@ -86,17 +112,29 @@ const Footer = () => {
             <div>
               <h4 className="text-xl font-bold mb-4">Opening Hours</h4>
               <ul className="space-y-3">
-                <li className="flex justify-between">
-                  <span>Monday - Friday</span>
-                  <span>8:00 - 20:00</span>
+                <li className="group flex justify-between">
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    Monday - Friday
+                  </span>
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    8:00 - 20:00
+                  </span>
                 </li>
-                <li className="flex justify-between">
-                  <span>Saturday</span>
-                  <span>9:00 - 18:00</span>
+                <li className="group flex justify-between">
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    Saturday
+                  </span>
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    9:00 - 18:00
+                  </span>
                 </li>
-                <li className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>10:00 - 16:00</span>
+                <li className="group flex justify-between">
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    Sunday
+                  </span>
+                  <span className="text-white group-hover:text-green-300 transition-colors duration-300">
+                    10:00 - 16:00
+                  </span>
                 </li>
               </ul>
             </div>
@@ -109,7 +147,9 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="border-t border-gray-700 mt-12 pt-8 text-center"
           >
-            <p>&copy; {new Date().getFullYear()} JuiceBar. All rights reserved.</p>
+            <p className="text-white hover:text-green-300 transition-colors duration-300">
+              &copy; {new Date().getFullYear()} Zussioberry. All rights reserved.
+            </p>
           </motion.div>
         </div>
       </div>

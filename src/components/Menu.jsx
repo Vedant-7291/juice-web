@@ -30,7 +30,7 @@ const Menu = () => {
             transition={{ duration: 0.6 }}
             className="w-full md:w-1/2 md:pr-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-6 font-playwrite">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green-700 mb-6 leading-tight font-playwrite">
               Explore Our Full Menu
             </h2>
             <p className="text-lg text-gray-600 mb-10">

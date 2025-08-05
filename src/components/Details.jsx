@@ -60,7 +60,7 @@ const Details = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl md:text-4xl font-bold text-green-600 mb-4 font-playwrite">Nature Goodness In Every Sip</h2>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green-700 mb-6 leading-tight font-playwrite">Nature Goodness In Every Sip</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             We are committed to providing the highest quality juices made from organic ingredients to help you lead a healthier lifestyle.
           </p>
