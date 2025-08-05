@@ -23,7 +23,7 @@ const Menu = () => {
     <section id="special" className="py-20 bg-white" ref={ref}>
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row items-center">
-          {/* Left Side - Features */}
+          
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -37,7 +37,7 @@ const Menu = () => {
               Discover our wide selection of handcrafted beverages made with premium ingredients
             </p>
 
-            {/* Enhanced 2x2 Grid */}
+           
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {features.map((feature, index) => (
                 <motion.div
@@ -73,7 +73,7 @@ const Menu = () => {
             </div>
           </motion.div>
 
-          {/* Right Side - Featured Image */}
+         
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
