@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
 import banner7 from '../assets/banner7.png';
-import banner9 from '../assets/banner9.png' // Add your own images
+
 import banner3 from '../assets/banner3.webp' // Add your own images
 
 const slides = [
@@ -14,14 +14,8 @@ const slides = [
       'Discover our wide range of delicious and nutritious juices made from the freshest fruits and vegetables available and packed with essential vitamins and minerals.',
     image: banner7,
   },
-  {
-    id: 2,
-    title: 'Detox & Cleanse',
-    subtitle: 'Boost Your Immunity',
-    description:
-      'Our detox juices are packed with antioxidants to help cleanse your body and boost your immune system and overall health, naturally .',
-    image: banner9,
-  },
+ 
+  
   {
     id: 3,
     title: 'Custom Blends',
@@ -49,7 +43,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-[90vh] md:h-screen flex items-center justify-center overflow-hidden mt-16"
+      className="relative h-[90vh] md:h-screen flex items-center justify-center overflow-hidden mt-0"
       ref={ref}
     >
       {/* Background Slides */}
